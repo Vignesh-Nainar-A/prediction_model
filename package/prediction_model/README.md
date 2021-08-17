@@ -41,8 +41,7 @@ import pandas as pd
 train_pipeline.run_training()
 
 # Load external data
-# test_data = load_dataset(file_name='/home/suhas/code/test.csv')
-test_data = pd.read_csv("/home/suhas/code/packages/prediction_model/prediction_model/datasets/test.csv")
+test_data = pd.read_csv("/home/suhas/code/test.csv")
 
 # Make prediction
 result = make_prediction(test_data[0:1])
