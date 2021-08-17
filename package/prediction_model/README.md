@@ -23,6 +23,7 @@ Reopen the terminal and test using ----------> echo $PYTHONPATH
 pip install -r requirements.txt
 # To create pickle file
 python packages/prediction_model/prediction_model/train_pipeline.py
+
 pytest -v #in tests folder
 
 ================== Install and consume pacakged ML Model ===========================
