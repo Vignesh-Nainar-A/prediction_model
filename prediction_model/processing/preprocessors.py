@@ -90,8 +90,8 @@ class LogTransformation(BaseEstimator, TransformerMixin):
     def fit(self, X,y):
         return self
 
-    #Need to check in advance if the features are > 0
-    #If yes, needs to be transformed properly
+    #Need to check in advance if the features are <= 0
+    #If yes, needs to be transformed properly (for instance np.log1p(X[var]))
     def transform(self,X):
         X=X.copy()
         for var in self.variables:

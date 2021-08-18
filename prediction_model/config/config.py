@@ -3,7 +3,6 @@ import pathlib
 import os
 import prediction_model
 
-# PACKAGE_ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PACKAGE_ROOT = pathlib.Path(prediction_model.__file__).resolve().parent
 
 DATAPATH=os.path.join(PACKAGE_ROOT, 'datasets')
