@@ -143,7 +143,7 @@ pip install -e .
 ```
 ```.``` refers to current directory
 
-```-e``` refres to --editable mode
+```-e``` refers to --editable mode
 
 Normal installation
 ```python
