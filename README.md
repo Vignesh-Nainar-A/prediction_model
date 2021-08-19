@@ -161,9 +161,11 @@ Without git
 ```python
 pip install https://github.com/suhas-ds/prediction_model/tarball/master
 ```
+or
 ```python
 pip install https://github.com/suhas-ds/prediction_model/tarball/master
 ```
+or
 ```python
 pip install https://github.com/suhas-ds/prediction_model/archive/master.zip
 ```
